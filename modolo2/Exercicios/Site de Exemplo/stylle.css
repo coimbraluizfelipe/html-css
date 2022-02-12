@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*  Para não ter problemas com caracteres especiais usa-se o @charset "UTF-8" */
+*{
+   font-family: Arial, Helvetica, sans-serif;
+   /* Tudo que estiver dentro de *{} são configurações globais da CSS */
+}
+body{
+    background-image: linear-gradient(to right,#378A40,#88F000);
+    /* Esse parametro faz criar um degradê no fundo do site  */
+
+}
+main{
+    background-color: white;
+    width: 600px;
+    /* Esse parametro (width) faz com que mude a largura do main para 600px*/
+    padding: 10px;
+    /* faz com o preenchimento do main mude e fique melhorado o espaçamento entre as bordas */
+    margin: auto;
+    border-radius: 10px;
+    /* muda a borda do main de quadrada para circular */
+    box-shadow: 5px 5px 15px #3863008f;
+    /* o box-shadow cria uma sombra, nesse caso, na main */
+
+}
+h1{
+    color: #A13CF2;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(40, 16, 59);;
+}
+h2{
+    color: #4313BD;
+}
+p{
+    text-align: justify;
+}
